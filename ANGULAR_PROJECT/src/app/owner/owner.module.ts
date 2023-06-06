@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { OwnerRoutingModule } from './owner-routing.module';
 import { OwnerLoginComponent } from './owner-login/owner-login.component';
 import { OwnerSignUpComponent } from './owner-sign-up/owner-sign-up.component';
+console.log("owner login");
 
 
 @NgModule({

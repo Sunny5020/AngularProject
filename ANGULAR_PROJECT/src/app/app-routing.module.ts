@@ -7,11 +7,10 @@ import { OwnerLoginComponent } from './owner/owner-login/owner-login.component';
 
 const routes: Routes = [
  {path : 'login', component : LoginComponent},
- {path :'signUp', component : SignupComponent},
- {path : 'owner', component : OwnerLoginComponent},
+ {path :'signup', component : SignupComponent},
  {path:'', component : HomeComponent},
- {path :'admin', loadChildren: ()=> import('./admin/admin.module').then(mod=>mod.AdminModule)},
- {path:'owner', loadChildren: ()=>import('./owner/owner.module').then(m=>m.OwnerModule)},
+ {path : 'admin', loadChildren: ()=> import('./admin/admin.module').then(mod=>mod.AdminModule)},
+ {path : 'owner', loadChildren: ()=> import('./owner/owner.module').then(m=>m.OwnerModule)},
 ];
 
 @NgModule({
