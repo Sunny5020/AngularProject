@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
+import { StudentComponent } from './student/student.component';
 console.log('app.module.ts file');
 
 
@@ -17,6 +18,7 @@ console.log('app.module.ts file');
     LoginComponent,
     SignupComponent,
     HomeComponent,
+    StudentComponent,
   ],
   imports: [
     BrowserModule,
